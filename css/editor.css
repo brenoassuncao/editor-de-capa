@@ -1,37 +1,27 @@
-#editor-main {
-	width:100%;
-	background-color: blue;
-	height: 100%;
-}
+* {margin: 0;padding: 0;}
+#editor-main {width:100%;background-color: blue;height: 100%;}
 
-#conteudo{
-	width:14%;
-	background-color: yellow;
-	height: 100%;
-	float: left;
-}
+#conteudo{width:14%;background-color: yellow;height: 100%;float: left;}
 
-#pagina{
-	width:70%;
-	background-color: gray;
-	height: 100%;
-	float: left;
-}
+#pagina{width:70%;background-color: gray;height: 100%;float: left;}
 
-#formatos{
-	width:14%;
-	background-color: green;
-	height: 100%;
-	float: left;
-}
+#formatos{width:14%;background-color: green;height: 100%;float: left;}
+
 #editor-main #conteudo #NewsItems .newsItem {border-bottom: 1px solid #000;}
+
+#editor-main #pagina #page-layout .newsItem {border: 1px solid #999999;}
 
 #editor-main #pagina #page-layout {border: 1px solid #000; width: 100%;}
 
-#editor-main #pagina #page-layout #page-header{border: 1px solid #fff; width: 100%;min-height: 50px;float: left;}
-#editor-main #pagina #page-layout #page-content{border: 1px solid #fff; width: 75%;min-height: 300px;float: left;}
-#editor-main #pagina #page-layout #page-right{border: 1px solid #fff; width: 24.5%;min-height: 300px;float: left;}
+#editor-main #pagina #page-layout #page-header{border: 1px solid #fff; width: 100%;min-height: 50px;float: left; overflow: hidden;}
+#editor-main #pagina #page-layout #page-content{border: 1px solid #fff; width: 75%;min-height: 300px;float: left; overflow: hidden;}
+#editor-main #pagina #page-layout #page-right{border: 1px solid #fff; width: 24%;min-height: 300px;float: left; overflow: hidden;}
 
-#editor-main #pagina #page-layout #page-footer{border: 1px solid #fff; width: 100%;min-height: 50px;float: left;}
+#editor-main #pagina #page-layout #page-footer{border: 1px solid #fff; width: 100%;min-height: 50px;float: left; overflow: hidden;}
 
+
+.ui-state-hover {background-color: #FAE8EF; }
+.ui-state-highlight  {background-color: #E0EEEE;}
+.ui-sortable-helper {border: 2px dashed #000000;}
+.ui-state-active {border: 2px dashed #00BFFF !important;  }
 

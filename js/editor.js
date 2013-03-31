@@ -9,6 +9,20 @@ for (var i = 0; i < items.length; i++) {
 
 
 jQuery(document).ready(function($) {
+	$( ".sortable" ).sortable({
+		revert: true
+	});
+	$( ".draggable" ).draggable({
+		connectToSortable: ".sortable",
+		helper: "clone",
+		revert: "valid"
+	});
+	   
+    $( ".droppable" ).droppable({
+        activeClass: "ui-state-hover",
+        hoverClass: "ui-state-active",
+    });
+
 	$("#editor-main #conteudo #NewsItems .page-region").sortable();
 	$(".draggable" ).draggable({helper:'clone', connectToSortable: ".page-region",cursor: "crosshair" });
 });

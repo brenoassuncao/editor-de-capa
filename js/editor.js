@@ -24,5 +24,6 @@ jQuery(document).ready(function($) {
     });
 
 	$("#editor-main #conteudo #NewsItems .page-region").sortable();
-	$(".draggable" ).draggable({helper:'clone', connectToSortable: ".page-region",cursor: "crosshair" });
+	$(".draggable" ).draggable({helper:'clone', connectToSortable: ".page-region",cursor: "crosshair",containment:"#pagina" });
+
 });

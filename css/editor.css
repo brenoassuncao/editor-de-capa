@@ -1,0 +1,37 @@
+#editor-main {
+	width:100%;
+	background-color: blue;
+	height: 100%;
+}
+
+#conteudo{
+	width:14%;
+	background-color: yellow;
+	height: 100%;
+	float: left;
+}
+
+#pagina{
+	width:70%;
+	background-color: gray;
+	height: 100%;
+	float: left;
+}
+
+#formatos{
+	width:14%;
+	background-color: green;
+	height: 100%;
+	float: left;
+}
+#editor-main #conteudo #NewsItems .newsItem {border-bottom: 1px solid #000;}
+
+#editor-main #pagina #page-layout {border: 1px solid #000; width: 100%;}
+
+#editor-main #pagina #page-layout #page-header{border: 1px solid #fff; width: 100%;min-height: 50px;float: left;}
+#editor-main #pagina #page-layout #page-content{border: 1px solid #fff; width: 75%;min-height: 300px;float: left;}
+#editor-main #pagina #page-layout #page-right{border: 1px solid #fff; width: 24.5%;min-height: 300px;float: left;}
+
+#editor-main #pagina #page-layout #page-footer{border: 1px solid #fff; width: 100%;min-height: 50px;float: left;}
+
+

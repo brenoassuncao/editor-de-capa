@@ -9,21 +9,31 @@ for (var i = 0; i < items.length; i++) {
 
 
 jQuery(document).ready(function($) {
+
+
+	 
+	jQuery(components).each(function(i, n){ 
+		one_component = eval('new ' + n);
+		//console.log(one_component);
+		jQuery("#editor-main #formatos #componentes").append(one_component.getHtml());
+	});	
+
+
 	$( ".sortable" ).sortable({
-		revert: true
+		revert: true,
+		connectWith: ".sortable"
 	});
-	$( ".draggable" ).draggable({
+	/*$( ".draggable" ).draggable({
 		connectToSortable: ".sortable",
-		helper: "clone",
 		revert: "valid"
 	});
-	   
+	   */
     $( ".droppable" ).droppable({
         activeClass: "ui-state-hover",
         hoverClass: "ui-state-active",
     });
 
-	$("#editor-main #conteudo #NewsItems .page-region").sortable();
-	$(".draggable" ).draggable({helper:'clone', connectToSortable: ".page-region",cursor: "crosshair",containment:"#pagina" });
+	$("#editor-main #conteudo #NewsItems .sortable").sortable();
+	$(".draggable" ).draggable({helper:'clone', connectToSortable: ".sortable",cursor: "crosshair",containment:"#pagina" });
 
 });

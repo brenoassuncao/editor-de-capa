@@ -9,7 +9,7 @@
 
 #editor-main #conteudo #NewsItems .newsItem {border-bottom: 1px solid #000;}
 
-#editor-main #pagina #page-layout .newsItem {border: 1px solid #999999;}
+#editor-main #pagina #page-layout .newsItem {border: 1px solid #999999; max-width: 400px}
 
 #editor-main #pagina #page-layout {border: 1px solid #000; width: 100%; height: auto;}
 

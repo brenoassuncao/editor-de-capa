@@ -9,6 +9,7 @@ for (var i = 0; i < items.length; i++) {
 
 
 jQuery(document).ready(function($) {
-	$("#editor-main #conteudo #NewsItems .page-region").sortable();
-	$(".draggable" ).draggable({helper:'clone', connectToSortable: ".page-region",cursor: "crosshair" });
+	//$("#editor-main #pagina #page-layout .page-region").sortable();
+	$(".draggable" ).draggable({containment:"#page-layout"});
+	$(".draggable").droppable({accept:"#page-layout"});
 });

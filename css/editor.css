@@ -26,7 +26,7 @@
 }
 #editor-main #conteudo #NewsItems .newsItem {border-bottom: 1px solid #000;}
 
-#editor-main #pagina #page-layout {border: 1px solid #000; width: 100%;}
+#editor-main #pagina #page-layout {border: 1px solid #000; width: 100%; height: auto;}
 
 #editor-main #pagina #page-layout #page-header{border: 1px solid #fff; width: 100%;min-height: 50px;float: left;}
 #editor-main #pagina #page-layout #page-content{border: 1px solid #fff; width: 75%;min-height: 300px;float: left;}

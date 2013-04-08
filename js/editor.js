@@ -9,7 +9,7 @@ for (var i = 0; i < items.length; i++) {
 
 
 jQuery(document).ready(function($) {
-	//$("#editor-main #pagina #page-layout .page-region").sortable();
-	$(".draggable" ).draggable({containment:"#page-layout"});
-	$(".draggable").droppable({accept:"#page-layout"});
+	//$("#pagina #page-layout .page-region").sortable();
+	$(".draggable" ).draggable({containment:"#pagina"});
+	//$(".draggable").droppable({accept:"#page-layout"});
 });

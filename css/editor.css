@@ -25,3 +25,8 @@
 .ui-sortable-helper {border: 2px dashed #000000;}
 .ui-state-active {border: 2px dashed #00BFFF !important;  }
 
+/*Componente*/
+.component .component_content {min-height: 15px;width: 100%;background-color: #ccc;}
+
+#editor-main #pagina #page-layout .component {border-color: yellow;border-style: dotted; margin: 4px;}
+
